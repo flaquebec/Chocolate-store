@@ -1,0 +1,1 @@
+INSERT INTO admins(name, email, password) VALUES('Flavia', 'flavia@gmail.com', '123456');
