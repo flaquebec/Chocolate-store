@@ -1,0 +1,53 @@
+body{
+	background:#f9f2ec;
+
+}
+
+.container-fluid{
+	background: #ffffff;
+	box-shadow: 8px 8px 5px #aaa9a9;
+	
+	padding-right: 40px;
+	padding-left: 40px;
+
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+	
+}
+#logoLogin{
+	background: #ffffff;
+	width: 50%;
+	padding-bottom: 20px;
+	
+}
+#logoImage{
+	width: 100%;
+}
+.admin{
+	
+	padding:5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+
+}
+.admin p{
+	margin-bottom: 0px;
+	color:#666666 ;
+	font-family: 'Comic Neue', cursive;
+	font-size: 25px;
+
+
+}
+#btnLogin{
+	background: #e79a4c;
+	border: 1px solid #d48536;
+	margin-top: 30px;
+
+}
+label{
+	color:#666666 ;
+	font-family: 'Comic Neue', cursive;
+}
