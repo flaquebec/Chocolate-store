@@ -18,7 +18,7 @@ foreach ($admins as $admin) {
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="cssTest.css">
+    <link rel="stylesheet" href="style_chocolate.css">
   
     
     <!-- Fonts-->
@@ -36,7 +36,7 @@ foreach ($admins as $admin) {
   <div class="container-fluid loginBox col-xs-12 col-sm-6 col-md-6 col-lg-4">
     <div id="logoLogin"  class="mx-auto d-block">
       
-        <img src="imagem/logo.jpg"  id="logoImage"class="mx-auto d-block">
+        <img src="/imagem/logo.jpg"  id="logoImage"class="mx-auto d-block">
        
     </div>
     <div class="admin ">
