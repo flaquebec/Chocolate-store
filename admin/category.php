@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,41 +8,47 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="cssTest.css">
-    <di
+  
     
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Comic+Neue:400,700&display=swap" rel="stylesheet">
       <!--font-family: 'Comic Neue', cursive; -->
     
-    <title>Admin</title>
+    <title>Admin/category</title>
   </head>
  
   <body>
-  
-    <div class="opsMessage alert alert-danger container-fluid text-center d-none col-xs-12 col-sm-6 col-md-6 col-lg-4">
-      <strong>Ops!</strong> Email and/or password invalid.
+   <div class=" categoria container-fluid categoriaBox col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <p class="text-center">Categoria</p>
     </div>
-  <div class="container-fluid loginBox col-xs-12 col-sm-6 col-md-6 col-lg-4">
-    <div id="logoLogin"  class="mx-auto d-block">
-      
-        <img src="imagem/logo.jpg"  id="logoImage"class="mx-auto d-block">
-       
-    </div>
-    <div class="admin ">
-      <p class="text-center">Administrator</p>
-    </div>
+    
+  <div class="container-fluid categoriaBox col-xs-12 col-sm-6 col-md-6 col-lg-6">
+   
+   
    
     <form action="/action_page.php">
       <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" class="form-control" id="email" value="" placeholder="Enter email" name="email">
+        <label for="name">Nome:</label>
+        <input type="" class="form-control" id="nome" value="" placeholder="" name="email">
       </div>
       <div class="form-group">
-        <label for="pwd">Password:</label>
-        <input type="password" class="form-control" id="pwd" value="" placeholder="Enter password" name="pswd">
+        <label for="comment">Descrição:</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
       </div>
+      <div class="form-group">
+        <label for="Imagem">Imagem:</label>
+        <div class="input-group">
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="inputGroupFile04">
+            <label class="custom-file-label" for="inputGroupFile04"></label>
+          </div>
+        </div>
+      </div>   
      
-      <button onclick="emailValidation()" id="btnLogin" type="button" class="btn btn-primary btn-block">Login</button>
+        <button onclick="btnSalvar()"  type="button" class="btnCategoria btn btn-primary btn-inline-block">Salvar</button>
+        <button onclick="btnCancelar()" type="button" class="btnCategoria btn btn-primary btn-inline-block float-right">Cancelar</button>
+      
+
     </form>
   </div>
   

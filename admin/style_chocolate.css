@@ -6,10 +6,8 @@ body{
 .loginBox{
 	background: #ffffff;
 	box-shadow: 8px 8px 5px #aaa9a9;
-	
 	padding-right: 40px;
 	padding-left: 40px;
-
 	padding-top: 20px;
 	padding-bottom: 40px;
 	margin-top: 20px;
@@ -50,4 +48,33 @@ body{
 label{
 	color:#666666 ;
 	font-family: 'Comic Neue', cursive;
+}
+.btnCategoria{
+	background: #e79a4c;
+	border: 1px solid #d48536;
+	margin-top: 30px;
+	width: 49%;
+	font-family: 'Comic Neue', cursive;
+
+}
+.categoriaBox{
+	background: #ffffff;
+	box-shadow: 8px 8px 5px #aaa9a9;
+	padding: 20px 40px 30px 40px;
+
+	
+}
+.categoria p{
+	
+		margin-bottom: 0px;
+		color:#666666 ;
+		font-family: 'Comic Neue', cursive;
+		font-size: 25px;
+	
+}
+.categoria{
+	padding: 15px 0px 10px 0px;
+	margin-top: 15px;
+	border-bottom: 1px solid #e9e6e6;
+	background: #fafafa;
 }
