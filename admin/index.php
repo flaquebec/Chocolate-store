@@ -107,7 +107,7 @@ if (!empty($_POST)) {
   <div class="container-fluid loginBox col-xs-12 col-sm-6 col-md-6 col-lg-4">
     <div id="logoLogin"  class="mx-auto d-block">
       
-        <img src="imagem/logo.JPG"  id="logoImage"class="mx-auto d-block">
+        <img src="/admin/imagem/logo.jpg"  id="logoImage"class="mx-auto d-block">
        
     </div>
     <div class="admin ">
