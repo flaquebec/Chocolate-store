@@ -18,7 +18,7 @@
   </head>
  
   <body>
-   <div class=" categoria container-fluid categoriaBox col-xs-12 col-sm-6 col-md-6 col-lg-6">
+   <div class=" cadastro container-fluid cadastroBox col-xs-12 col-sm-6 col-md-6 col-lg-6">
       <p class="text-center">Categoria</p>
     </div>
     
@@ -45,8 +45,8 @@
         </div>
       </div>   
      
-        <button onclick="btnSalvar()"  type="button" class="btnCategoria btn btn-primary btn-inline-block">Salvar</button>
-        <button onclick="btnCancelar()" type="button" class="btnCategoria btn btn-primary btn-inline-block float-right">Cancelar</button>
+        <button onclick="btnSalvar()"  type="button" class="btnSalvarCancelar btn btn-primary btn-inline-block">Salvar</button>
+        <button onclick="btnCancelar()" type="button" class="btnSalvarCancelar btn btn-primary btn-inline-block float-right">Cancelar</button>
       
 
     </form>
