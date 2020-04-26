@@ -134,7 +134,7 @@ if (!empty($_POST)) {
         ?>
       </div>
      
-      <button id="btnLogin" type="submit" class="btn btn-primary btn-block">Login</button>
+      <button id="btnLogin" type="submit" class="btn btn-secondary btn-block">Login</button>
     </form>
   </div>
   

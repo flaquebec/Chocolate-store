@@ -14,15 +14,15 @@
     <link href="https://fonts.googleapis.com/css?family=Comic+Neue:400,700&display=swap" rel="stylesheet">
       <!--font-family: 'Comic Neue', cursive; -->
     
-    <title>Admin/category</title>
+      <title>Admin/product</title>
   </head>
  
   <body>
-   <div class=" cadastro container-fluid cadastroBox col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <p class="text-center">Categoria</p>
+   <div class="cadastro container-fluid cadastroBox col-xs-12 col-sm-6 col-md-6 col-lg-6 mt-0">
+      <p class="text-center">Produto</p>
     </div>
     
-  <div class="container-fluid categoriaBox col-xs-12 col-sm-6 col-md-6 col-lg-6">
+  <div class="container-fluid cadastroBox col-xs-12 col-sm-6 col-md-6 col-lg-6">
    
    
    
@@ -31,12 +31,27 @@
         <label for="name">Nome:</label>
         <input type="" class="form-control" id="nome" value="" placeholder="" name="email">
       </div>
+
+      <div class="form-group">
+        <label for="comment">Categoria:</label>
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <div class="input-group-append">
+            <button class="simpleBtn btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">produto A</a>
+              <a class="dropdown-item" href="#">produto B</a>
+              <a class="dropdown-item" href="#">produto C</a>
+            </div>
+          </div>
+        </div>
+      </div>
       
       <div class="form-group">
         <label for="comment">Descrição:</label>
         <textarea class="form-control" rows="5" id="comment"></textarea>
-      </div>
-
+      </div>    
+             
       <div class="form-group">
         <label for="Imagem">Imagem:</label>
         <div class="input-group">
@@ -45,12 +60,11 @@
             <label class="custom-file-label" for="inputGroupFile04"></label>
           </div>
         </div>
-      </div>   
+      </div>  
      
         <button onclick="btnSalvar()"  type="button" class="btnSalvarCancelar btn btn-secondary btn-inline-block">Salvar</button>
         <button onclick="btnCancelar()" type="button" class="btnSalvarCancelar btn btn-secondary btn-inline-block float-right">Cancelar</button>
       
-
     </form>
   </div>
   
