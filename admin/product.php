@@ -32,19 +32,18 @@
         <input type="" class="form-control" id="nome" value="" placeholder="" name="email">
       </div>
 
+     
       <div class="form-group">
-        <label for="comment">Categoria:</label>
-        <div class="input-group">
-          <input type="text" class="form-control">
-          <div class="input-group-append">
-            <button class="simpleBtn btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"></button>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">produto A</a>
-              <a class="dropdown-item" href="#">produto B</a>
-              <a class="dropdown-item" href="#">produto C</a>
-            </div>
-          </div>
-        </div>
+        <label for="catergoria">Categoria</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option></option>
+          <option>Produto A</option>
+          <option>Produto b</option>
+          <option>Produto c</option>
+          <option>Produto d</option>
+          <option>Produto e</option>
+          
+        </select>
       </div>
       
       <div class="form-group">
