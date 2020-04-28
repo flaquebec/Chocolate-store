@@ -85,3 +85,21 @@ label{
 	color: white;	
 
 }
+/* Home Admin*/
+.navHomeAdmin{
+	
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+
+}
+.logoHome {
+	width: 80px;
+	
+}
+.menuList a{
+	color:#666666 ;
+	font-family: 'Comic Neue', cursive;
+	font-size: 20px;
+	
+}	
