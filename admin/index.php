@@ -111,7 +111,7 @@ if (!empty($_POST)) {
        
     </div>
     <div class="admin ">
-      <p class="text-center">Administrator</p>
+      <p class="text-center">Administrador</p>
     </div>
    
     <form action="/admin/index.php" method="POST">

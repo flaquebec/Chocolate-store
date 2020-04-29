@@ -22,7 +22,7 @@
     
     <nav class="navbar navbar-expand-sm navbar-light bg-light navHomeAdmin">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="imagem/logo.png" class="logoHome float-left d-block" ></a>
+        <a class="navbar-brand" href="#"> <img src="/admin/imagem/logo.png" class="logoHome float-left d-block" ></a>
         <div class="nav navbar menu">
           <ul class="navbar-nav ">
             <li class="nav-item pr-4 menuList">
