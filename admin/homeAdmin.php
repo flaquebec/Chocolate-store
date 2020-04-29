@@ -39,9 +39,8 @@
             </li>
             <li class="dropdown float-right menuList ">
               <a class="nav-link" type="text" id="dropdownMenuButton" role="botton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <div class="d-inline"><i class="fa fa-user-o"></i>
-                
-                
+                <div class="d-inline">
+                <i class="fa fa-user-o"></i>                              
                 <span >Flavia</span>
                 </div>
               </a>
