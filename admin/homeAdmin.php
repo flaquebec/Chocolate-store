@@ -8,6 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style_chocolate.css">
+    <link rel="stylesheet" href="adminPedidos.php">
+    <link rel="stylesheet" href="adminProdutos.php"> 
+    <link rel="stylesheet" href="adminCategoria.php"> 
+    <link rel="stylesheet" href="adminClientes.php"> 
   
     
     <!-- Fonts-->
@@ -22,20 +26,20 @@
     
     <nav class="navbar navbar-expand-sm navbar-light bg-light navHomeAdmin">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="/admin/imagem/logo.png" class="logoHome float-left d-block" ></a>
+        <a class="navbar-brand" href="homeAdmin"> <img src="/admin/imagem/logo.png" class="logoHome float-left d-block" ></a>
         <div class="nav navbar menu">
           <ul class="navbar-nav ">
             <li class="nav-item pr-4 menuList">
-              <a class="nav-link" href="#">Categoria</a>
+              <a class="nav-link" href="adminCategoria.php#">Categoria</a>
             </li>
             <li class="nav-item pr-4 menuList">
-              <a class="nav-link" href="#">Produtos</a>
+              <a class="nav-link" href="adminProdutos.php">Produtos</a>
             </li>
             <li class="nav-item pr-4 menuList">
-              <a class="nav-link" href="#">Pedidos</a>
+              <a class="nav-link" href="adminPedidos.php">Pedidos</a>
             </li>
             <li class="nav-item pr-4 menuList">
-                <a class="nav-link" href="#">Clientes</a>
+                <a class="nav-link" href="adminClientes.php">Clientes</a>
             </li>
             <li class="dropdown float-right menuList ">
               <a class="nav-link" type="text" id="dropdownMenuButton" role="botton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
