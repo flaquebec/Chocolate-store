@@ -30,16 +30,16 @@
         <div class="nav navbar menu">
           <ul class="navbar-nav ">
             <li class="nav-item pr-4 menuList">
-              <a class="nav-link" href="adminCategoria.php#">Categoria</a>
+              <a class="nav-link" href="/admin/adminCategoria.php#">Categoria</a>
             </li>
             <li class="nav-item pr-4 menuList">
-              <a class="nav-link" href="adminProdutos.php">Produtos</a>
+              <a class="nav-link" href="admin/adminProdutos.php">Produtos</a>
             </li>
             <li class="nav-item pr-4 menuList">
-              <a class="nav-link" href="adminPedidos.php">Pedidos</a>
+              <a class="nav-link" href="admin/adminPedidos.php">Pedidos</a>
             </li>
             <li class="nav-item pr-4 menuList">
-                <a class="nav-link" href="adminClientes.php">Clientes</a>
+                <a class="nav-link" href="admin/adminClientes.php">Clientes</a>
             </li>
             <li class="dropdown float-right menuList ">
               <a class="nav-link" type="text" id="dropdownMenuButton" role="botton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
