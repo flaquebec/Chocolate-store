@@ -67,7 +67,7 @@
           <li class="breadcrumb-item itemBC"><a href="homeAdmin.php" class="">Home</a></li>
           <li class="breadcrumb-item active" aria-current="page">Produtos</li>
         </ol>
-      </nav>
+    </nav>
 
     
 

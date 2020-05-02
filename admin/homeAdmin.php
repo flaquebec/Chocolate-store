@@ -70,6 +70,13 @@
       </div>
     </nav>
 
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item itemBC"><a href="homeAdmin.php" class="">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Admin</li>
+        </ol>
+    </nav>
+
       <!--Chart-->
     <div class="container-fluid mr-5 mt-5 ml-2">
       <canvas id="boxGraf" class="col-6 d-inline "></canvas>
