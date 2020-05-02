@@ -1,34 +1,42 @@
 <!doctype html>
 <html lang="en">
- <head>
-   <!-- Required meta tags -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-   <link rel="stylesheet" href="style_chocolate.css">
-   <link rel="stylesheet" href="adminPedidos.php">
-   <link rel="stylesheet" href="adminProdutos.php"> 
-   <link rel="stylesheet" href="adminCategoria.php"> 
-   <link rel="stylesheet" href="adminClientes.php"> 
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style_chocolate.css">
+    <link rel="stylesheet" href="/admin/adminPedidos.php">
+    <link rel="stylesheet" href="/admin/adminProdutos.php"> 
+    <link rel="stylesheet" href="/admin/adminCategoria.php"> 
+    <link rel="stylesheet" href="/admin/adminClientes.php"> 
+    <link rel="stylesheet" href="/admin/categoria.php"> 
+    <link rel="stylesheet" href="/admin/login.php"> 
+    <link rel="stylesheet" href="/admin/index.php"> 
+  
+    
+   <!--chart.js-->
+  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script> 
   
    <!--Icons-->
 
-   <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
    <!-- Fonts-->
    <link href="https://fonts.googleapis.com/css?family=Comic+Neue:400,700&display=swap" rel="stylesheet">
      <!--font-family: 'Comic Neue', cursive; -->
    
-   <title>HomeClientes</title>
+   <title>Administrador</title>
  </head>
  
  <body>    
     
     <nav class="navbar navbar-expand-sm navbar-light bg-light navHomeAdmin">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/admin/homeAdmin.php"> <img src="/admin/imagem/logo.png" class="logoHome float-left d-block" ></a>
+        <a class="navbar-brand" href="/admin/index.php"> <img src="/admin/imagem/logo.png" class="logoHome float-left d-block" ></a>
         <div class="nav navbar menu">
           <ul class="navbar-nav ">
             <li class="nav-item pr-4 menuList">
@@ -64,7 +72,7 @@
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item itemBC"><a href="homeAdmin.php" class="">Home</a></li>
+          <li class="breadcrumb-item itemBC"><a href="/admin/index.php" class="">Admin</a></li>
           <li class="breadcrumb-item active" aria-current="page">Clientes</li>
         </ol>
       </nav>

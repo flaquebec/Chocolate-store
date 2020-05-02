@@ -142,23 +142,6 @@ if (!empty($_POST)) {
       $statement->execute([$name, $description, $image_name]);
     }
     
-    header('Location: /admin/categories.php');
-  }
-
-}
-
-include('header.php');
-?>
-
-
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item itemBC"><a href="homeAdmin.php" class="">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Categoria</li>
-      </ol>
-    </nav>
-
-   <div class="cadastro container-fluid cadastroBox col-xs-12 col-sm-6 col-md-6 col-lg-6">
       <p class="text-center">Categoria</p>
     </div>
     
