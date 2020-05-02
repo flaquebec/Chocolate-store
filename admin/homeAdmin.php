@@ -14,9 +14,19 @@
     <link rel="stylesheet" href="adminClientes.php"> 
   
     
-    <!-- Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Comic+Neue:400,700&display=swap" rel="stylesheet">
-      <!--font-family: 'Comic Neue', cursive; -->
+   <!--chart.js-->
+  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script> 
+  
+   <!--Icons-->
+
+   <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <!-- Fonts-->
+   <link href="https://fonts.googleapis.com/css?family=Comic+Neue:400,700&display=swap" rel="stylesheet">
+     <!--font-family: 'Comic Neue', cursive; -->
+
     <title>Home/Admin</title>
  
   </head>
