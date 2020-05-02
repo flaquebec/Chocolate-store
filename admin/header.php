@@ -28,11 +28,13 @@
    <!-- Fonts-->
    <link href="https://fonts.googleapis.com/css?family=Comic+Neue:400,700&display=swap" rel="stylesheet">
      <!--font-family: 'Comic Neue', cursive; -->
-   
-   <title>Administrador</title>
- </head>
+
+    <title>Administrador</title>
  
- <body>    
+  </head>
+ 
+ 
+  <body>    
     
     <nav class="navbar navbar-expand-sm navbar-light bg-light navHomeAdmin">
       <div class="container-fluid">
@@ -43,19 +45,19 @@
               <a class="nav-link" href="/admin/adminCategoria.php">Categoria</a>
             </li>
             <li class="nav-item pr-4 menuList">
-              <a class="nav-link" href="/admin/adminProdutos.php">Produtos</a>
+              <a class="nav-link" href="admin/adminProdutos.php">Produtos</a>
             </li>
             <li class="nav-item pr-4 menuList">
-              <a class="nav-link" href="/admin/adminPedidos.php">Pedidos</a>
+              <a class="nav-link" href="admin/adminPedidos.php">Pedidos</a>
             </li>
             <li class="nav-item pr-4 menuList">
-                <a class="nav-link" href="/admin/adminClientes.php">Clientes</a>
+                <a class="nav-link" href="admin/adminClientes.php">Clientes</a>
             </li>
             <li class="dropdown float-right menuList ">
               <a class="nav-link" type="text" id="dropdownMenuButton" role="botton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <div class="d-inline">
-                  <i class="fa fa-user-o"></i>               
-                  <span >Flavia</span>
+                <i class="fa fa-user-o"></i>                              
+                <span >Flavia</span>
                 </div>
               </a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -69,21 +71,3 @@
         </div>
       </div>
     </nav>
-
-    <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item itemBC"><a href="/admin/index.php" class="">Admin</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Categoria</li>
-        </ol>
-      </nav>
-
-    
-
-   <!-- Optional JavaScript -->
-   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="/assets/js/jquery-3.4.1.slim.js"></script>
-   <script src="/assets/js/popper.js"></script>
-   <script src="/assets/js/bootstrap.js"></script>
-  
- </body>
-</html>

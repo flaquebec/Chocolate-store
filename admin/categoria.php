@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Comic+Neue:400,700&display=swap" rel="stylesheet">
       <!--font-family: 'Comic Neue', cursive; -->
     
-    <title>Admin/category</title>
+    <title>Admin/Categoria</title>
   </head>
  
   <body>
