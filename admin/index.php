@@ -3,18 +3,17 @@
 // Start session memory
 session_start();
 
-// Instance data base connection
-try {
-  $connection = new PDO('mysql:host=mysql_app;dbname=app', 'root', 'secret');
-  $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch(PDOException $e) {
-  echo 'ERROR: ' . $e->getMessage();
-  exit;
-}
-
-
 // Verify if form sended, $_POST variable is a array with all input, select, textarea submited from form
 if (!empty($_POST)) {
+
+  // Instance data base connection
+  try {
+    $connection = new PDO('mysql:host=mysql_app;dbname=app', 'root', 'secret');
+    $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  } catch(PDOException $e) {
+    echo 'ERROR: ' . $e->getMessage();
+    exit;
+  }
 
   // Create empty array validations errors variable
   $validations = [];
