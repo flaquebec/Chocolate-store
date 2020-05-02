@@ -36,11 +36,11 @@
     
     <nav class="navbar navbar-expand-sm navbar-light bg-light navHomeAdmin">
       <div class="container-fluid">
-        <a class="navbar-brand" href="homeAdmin"> <img src="/admin/imagem/logo.png" class="logoHome float-left d-block" ></a>
+        <a class="navbar-brand" href="/admin/homeAdmin.php"> <img src="/admin/imagem/logo.png" class="logoHome float-left d-block" ></a>
         <div class="nav navbar menu">
           <ul class="navbar-nav ">
             <li class="nav-item pr-4 menuList">
-              <a class="nav-link" href="/admin/adminCategoria.php#">Categoria</a>
+              <a class="nav-link" href="/admin/adminCategoria.php">Categoria</a>
             </li>
             <li class="nav-item pr-4 menuList">
               <a class="nav-link" href="admin/adminProdutos.php">Produtos</a>
@@ -72,7 +72,7 @@
 
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item itemBC"><a href="homeAdmin.php" class="">Home</a></li>
+          <li class="breadcrumb-item itemBC"><a href="/admin/homeAdmin.php" class="">Home</a></li>
           <li class="breadcrumb-item active" aria-current="page">Admin</li>
         </ol>
     </nav>
