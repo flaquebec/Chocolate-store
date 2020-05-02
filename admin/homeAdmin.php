@@ -60,6 +60,59 @@
       </div>
     </nav>
 
+      <!--Chart-->
+    <div class="container-fluid mr-5 mt-5 ml-2">
+      <canvas id="boxGraf" class="col-6 d-inline "></canvas>
+      <div id="ultimosPedidos" class="col-5 float-right">Ultmos pedidos</div>
+      <div id="ultimosClientesCadastrados" class="col-5 float-right">Ultimos Clientes Cadastrados</div>
+    </div>
+    
+    <script>
+      Chart.defaults.global.defaultFontFamily="'Comic Neue', 'cursive'";
+      Chart.defaults.global.defaultFontColor="#996633";
+      var ctx = document.getElementById('boxGraf').getContext('2d');
+      var grafico = new Chart(ctx, {
+  
+        type: 'line',
+
+    
+        data: {
+            labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junnho', 'Julho','Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+            datasets: [{
+            label: 'Vendas',
+            backgroundColor: '#734d26',
+            fill: 'false',
+            borderColor: '#996633',
+            data: [8, 10, 5, 4, 13, 18, 14,10,3,17,13,14]
+            }]
+        },
+
+ 
+        options: {
+            title:{      
+                display: true,   
+                fontSize:30,
+                text:"Vendas",
+                fontColor:'#ac7339',
+                fontFamily:"'Comic Neue', 'cursive'",
+                padding:15,
+                lineHeight:2
+            },
+            legend:{
+                display:false,
+            },
+            scales: {
+            yAxes: [{
+                stacked: true
+            }]
+        }
+           
+        },
+    });
+
+
+    </script>
+
    <!-- Optional JavaScript -->
    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <script src="/assets/js/jquery-3.4.1.slim.js"></script>

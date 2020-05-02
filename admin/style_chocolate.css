@@ -102,4 +102,27 @@ label{
 	font-family: 'Comic Neue', cursive;
 	font-size: 20px;
 	
-}	
+}
+.itemBC a{
+          
+	color: #e79a4c;
+}
+.breadcrumb-item{
+	font-family: 'Comic Neue', cursive;
+}
+#boxGraf{
+	background: white;
+	height: 600px;
+ 	box-shadow: 10px 10px 5px grey;
+ 	border-radius: 5px;
+
+}
+#ultimosPedidos{
+	background: white;
+	padding: 20px;
+	margin-right: 70px;
+
+}
+#ultimosClientesCadastrados{
+	background: white;
+}
