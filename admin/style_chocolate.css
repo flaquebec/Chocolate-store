@@ -144,4 +144,14 @@ label{
 	float: right;
 
 }
+.superContainer{
+	height: 800px;
+}
+#footer{
+	height: 60px;
+	position: absolute;
+	margin-top: 100px;
+}
+
+
 

@@ -12,8 +12,8 @@ require 'header.php';?>
 
        <!--Chart-->
     <div class="superContainer container-fluid d-flex-wrap">
-      <div id="boxGraf"class="col-xl-5 col-lg-12 d-flex justify-content-center col-sm-12" >
-          <div class="col-xl-12 col-lg-8 col-md-8 col-sm-12">
+      <div id="boxGraf"class="col-xl-5 col-lg-12  d-flex justify-content-center col-sm-12" >
+          <div class="col-xl-12 col-lg-8 col-md-10 col-sm-12">
             <canvas id="Graf"class="col-12"> </canvas>
           </div>
       </div>
@@ -23,7 +23,7 @@ require 'header.php';?>
        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mr-xl-4" id="tabelasPedidosClientes">
 
     <!--Tabela de pedidos-->
-          <div class="ultimosPC col-xl-12 col-sm-12 col-md-8 col-lg-8 mr-auto ml-auto ">
+          <div class="ultimosPC col-xl-12 col-sm-12 col-md-10 col-lg-8 mr-auto ml-auto ">
            <table class="table">
              <thead>
                 <tr>
@@ -63,7 +63,7 @@ require 'header.php';?>
           </div>
   
     <!-- Ultimos Clientes Cadastrados-->
-    <div class="ultimosPC col-xl-12 col-sm-12 col-md-8 col-lg-8 mr-auto ml-auto mt-5">
+    <div class="ultimosPC col-xl-12 col-sm-12 col-md-10 col-lg-8 mr-auto ml-auto mt-5">
    
       <table class="table">
          <thead>
@@ -104,6 +104,11 @@ require 'header.php';?>
       </div>
    </div>
 </div>
+
+
+
+
+
 
 
     

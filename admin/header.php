@@ -7,16 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style_chocolate.css">
-    <link rel="stylesheet" href="/admin/adminPedidos.php">
-    <link rel="stylesheet" href="/admin/adminProdutos.php"> 
-    <link rel="stylesheet" href="/admin/adminCategoria.php"> 
-    <link rel="stylesheet" href="/admin/adminClientes.php"> 
-    <link rel="stylesheet" href="/admin/categoria.php"> 
-    <link rel="stylesheet" href="/admin/login.php"> 
-    <link rel="stylesheet" href="/admin/index.php"> 
-  
-    
+    <link rel="stylesheet" href="/admin/style_chocolate.css">
+        
    <!--chart.js-->
   
    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script> 
@@ -35,8 +27,8 @@
  
  
   <body>    
-    
-    <nav class="navbar navbar-expand-sm navbar-light bg-light navHomeAdmin">
+  <div class="container-fluid p-0">  
+    <nav class="navbar navbar-expand-md navbar-light bg-light navHomeAdmin">
       <div class="container-fluid">
           <a class="navbar-brand" href="/admin/index.php"> 
             <img src="/admin/imagem/logo.png" class="logoHome float-left d-block" >
@@ -45,7 +37,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="barraMenu">
+          <div class="collapse navbar-collapse " id="barraMenu">
               <ul class="navbar-nav ml-auto ">
                  <li class="nav-item pr-2 menuList">
                    <a class="nav-link" href="/admin/adminCategoria.php">Categoria</a>
@@ -61,7 +53,8 @@
                  </li>
                  <li class="dropdown float-right menuList ">
                     <a class="nav-link" type="text" id="dropdownMenuButton" role="botton"      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     <div class="d-inline"><i class="fa fa-user-o"></i><span >Flavia</span>
+                     <div class="d-inline"><i class="fa fa-user-o"></i>
+                     <span >Flavia</span>
                      </div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -75,3 +68,4 @@
           </div>
       </div>
     </nav>
+  </div>

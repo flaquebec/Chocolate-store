@@ -1,5 +1,11 @@
-    
 
+ <div class="container-fluid card bg-light p-0" id="footer">
+  
+    <div class="card-body h-2"></div>
+  </div>
+</div>   
+<!-- Footer Links -->
+<!-- Footer -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="/assets/js/jquery-3.4.1.slim.js"></script>
