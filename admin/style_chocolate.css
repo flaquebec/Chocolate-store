@@ -152,6 +152,11 @@ label{
 	position: absolute;
 	margin-top: 100px;
 }
-
+#barraMenu{
+	padding-right: 100px;
+}
+.userName{
+	font-size: 15px;
+}
 
 

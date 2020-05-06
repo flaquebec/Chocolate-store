@@ -28,12 +28,11 @@
  
   <body>    
   <div class="container-fluid p-0">  
-    <nav class="navbar navbar-expand-md navbar-light bg-light navHomeAdmin">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-md navbar-light bg-light navHomeAdmin">      
           <a class="navbar-brand" href="/admin/index.php"> 
             <img src="/admin/imagem/logo.png" class="logoHome float-left d-block" >
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraMenu">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -51,21 +50,22 @@
                  <li class="nav-item pr-2 menuList">
                      <a class="nav-link" href="/admin/adminClientes.php">Clientes</a>
                  </li>
-                 <li class="dropdown float-right menuList ">
-                    <a class="nav-link" type="text" id="dropdownMenuButton" role="botton"      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <li class="nav-item dropdown w-50 menuList">
+                    <a class="nav-link" type="text" id="dropdownMenuBtn" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      <div class="d-inline"><i class="fa fa-user-o"></i>
                      <span >Flavia</span>
                      </div>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuBtn">
                      <a class="dropdown-item" href="">Administrador</a>
                      <a class="dropdown-item" href="">Alterar</a>
+                     <div class="dropdown-divider"></div>
                      <a class="dropdown-item" href="">Sair</a>
                     </div>
                  </li>                           
           
               </ul>
-          </div>
+          
       </div>
     </nav>
   </div>
