@@ -28,7 +28,8 @@ require 'header.php';?>
               <tr>
                 <th scope="col">ID</th>
                 <th scope="col">Data</th>
-                <th scope="col">Nome do Produto</th>                                
+                <th scope="col">Nome do Produto</th> 
+                <th scope="col">Categoria</th>                                
                 <th scope="col">Preço</th>
               </tr>
            </thead>
@@ -37,6 +38,7 @@ require 'header.php';?>
                 <th scope="row">001</th>
                  <td>01/01/2020</td>
                  <td>Cesta Dia das Mães</td>
+                 <td>Categoria A</td>
                  <td>R$ 56,00</td>
                  
               </tr>
@@ -45,6 +47,7 @@ require 'header.php';?>
                 <th scope="row">002</th>
                 <td>01/01/2020</td>
                  <td>Cesta Dia dos Namorados</td>
+                 <td>Categoria A</td>
                  <td>R$ 56,00</td>
               </tr>
        
@@ -52,6 +55,7 @@ require 'header.php';?>
                 <th scope="row">003</th>
                 <td>01/01/2020</td>
                  <td>Cesta Dia dos Pais</td>
+                 <td>Categoria A</td>
                  <td>R$ 56,00</td>
                 </tr>
              </tbody>

@@ -1,24 +1,7 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<?php
+require 'header.php';?>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style_chocolate.css">
-  
-    
-    <!-- Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Comic+Neue:400,700&display=swap" rel="stylesheet">
-      <!--font-family: 'Comic Neue', cursive; -->
-    
-      <title>Admin/product</title>
-  </head>
- 
-  <body>
-   <div class="cadastro container-fluid cadastroBox col-xs-12 col-sm-6 col-md-6 col-lg-6 mt-0">
+   <div class="cadastro container-fluid mt-5 col-xs-12 col-sm-6 col-md-6 col-lg-6 mt-0">
       <p class="text-center">Produto</p>
     </div>
     
@@ -68,14 +51,5 @@
   </div>
   
 
-  
-    
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/assets/js/jquery-3.4.1.slim.js"></script>
-    <script src="/assets/js/popper.js"></script>
-    <script src="/assets/js/bootstrap.js"></script>
-   
-  </body>
-</html>
+  <?php
+require 'footer.php';?>

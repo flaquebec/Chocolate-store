@@ -64,6 +64,7 @@ label{
 	box-shadow: 8px 8px 5px;
 	padding: 10px 40px 30px 40px;
 
+
 	
 }
 .cadastro p{
@@ -79,6 +80,8 @@ label{
 	margin-top: 15px;
 	border-bottom: 1px solid #e9e6e6;
 	background: #fafafa;
+	box-shadow: 8px 8px 5px;
+	
 }
 .simpleBtn{
 	background: #e79a4c;

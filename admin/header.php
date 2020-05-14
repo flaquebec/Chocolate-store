@@ -63,9 +63,7 @@
                      <a class="dropdown-item" href="">Sair</a>
                     </div>
                  </li>                           
-          
               </ul>
-          
-      </div>
+          </div>
     </nav>
   </div>
