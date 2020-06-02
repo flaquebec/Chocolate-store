@@ -1,9 +1,9 @@
 body{
 
- 
+ background: #f5f3f0;
 }
 .logoHome{
-    width: 90%;
+    width: 150px;
     margin-left: 10px;
 }
 .login{
@@ -18,8 +18,9 @@ body{
 
 .navWebHome{
     background: #ffffff;
-    padding: 0px;
     border-bottom: 1px solid #c97f1ee0;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .menuList{
     width: auto;
@@ -27,9 +28,8 @@ body{
     font-size: 18px;
 }
 .menuList :hover{
-    border-bottom: 2px solid brown;
+   font-size: 20px;
 }
-
 .menu{
     padding-top: 30px;
     padding-right: 0px;
@@ -58,7 +58,7 @@ body{
     padding-top: 40px;
 
 }
-.boxCarousel{
+.slideCarousel{
     border: 6px solid #ccbcacf1;
 }
 
@@ -66,6 +66,7 @@ body{
 
 .containerPrincipal{
  width: 90%;
+ background: transparent;
    
 }
 .tituloContainer{
@@ -120,29 +121,62 @@ body{
     box-shadow:2px 2px 4px ; 
 	height: auto;
     position: relative;
-    background: #f3e7cc;
+    background: #a08e6c;
     text-align: center;
 }
+.itemInfo{
+    padding-top: 5px;
+    color: #f3ecdc;
+   
+     
+ }
 .itemName{
      text-align: center; 
      font-size: 18px;
      margin: 0px;
      font-weight: 500;
+     color: #f3ecdc;
+         
  }
+ .itemProm{
+    margin-bottom: 0px;
+    color: #f3ecdc;   
 
+}
  .itemPrice{
      font-size: 16px;
- }
- .itemInfo{
-    padding-top: 5px;
+     margin: 0px;
+     color: #f3ecdc;     
      
  }
- .itemCod{
-     padding-bottom: 15px;
 
- }
+.itemLink{
+    text-align: end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+  
+}
+.itemLink a{
+    color: #ffffff;
+     text-decoration: none;
+  
+}
+.itemLink a:hover{
+    color: #ffad42;
+   
+    
+}
+
  
- 
+
+ #footer{
+	height: 60px;
+	position: absolute;
+    margin-top: 100px;
+    background: #b69e83;
+}
  
 /* XS*/
 @media only screen and (max-width: 576px) {
@@ -150,11 +184,42 @@ body{
     .boxProduto{
         width: 50%;
     }
+    .containerPrincipal{
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .tituloContainer{
+        padding: 10px 60px 10px 50px;
+    }
+    .titulo{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    #containerCarousel{
+        padding: 20px 0px 0px 0px;
+        
+    }
+    
 
 }
 /* SM*/
 @media only screen and (min-width: 577px) and (max-width: 768px) {
-   
+   .containerPrincipal{
+       padding-right: 0px;
+       padding-left: 0px;
+       width: 100%;
+   }
+   .tituloContainer{
+       padding: 10px 60px 10px 60px;
+   }
+   .titulo{
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+
+}
 
 }
 /* MD */
@@ -169,9 +234,10 @@ body{
     .menuList{
         font-size: 24px;
     }
-    .containerPrincipal{
-        width: ;
+    .logoHome{
+        width: 2000px;
     }
+   
 }
 /* XL*/
 @media only screen and  (min-width: 1201px){
@@ -186,6 +252,9 @@ body{
     }
     .containerPrincipal{
       
+    }
+    .logoHome{
+        width: 200px;
     }
 
 }
