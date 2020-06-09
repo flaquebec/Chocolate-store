@@ -134,7 +134,9 @@ if (!empty($_POST)) {
     $validations['price'] = 'O campo Preço deve ser um valor numérico maior ou igual a zero.';
   }
 
-  if (!empty($discount)) {
+  if (empty($discount)) {
+    $discount = null;
+  } else {
     if (!is_numeric($discount)) {
       $validations['discount'] = 'O campo Desconto deve ser um valor numérico.';
     } elseif ($discount < 0) {
@@ -221,7 +223,8 @@ include 'header.php';
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item itemBC"><a href="/admin/index.php">Admin</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Produto</li>
+    <li class="breadcrumb-item itemBC"><a href="/admin/adminProdutos.php">Produtos</a></li>
+    <li class="breadcrumb-item active" aria-current="page"><?php echo isset($_GET['id']) ? $_GET['id'] : 'Novo'; ?></li>
   </ol>
 </nav>
     

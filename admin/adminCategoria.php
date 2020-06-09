@@ -33,7 +33,7 @@ if (isset($_GET['search'])) {
   $parameters = ['%' . $_GET['search'] . '%'];
 }
 
-$orderBy = $_GET['orderBy'] ?? ['c1.id' => 'ASC'];
+$orderBy = $_GET['orderBy'] ?? ['c1.name' => 'ASC'];
 
 
 $categories = $connection
