@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css");
 body{
-	background:#f9f2ec;
+	background:#f5ece8;
 
 }
 
@@ -101,7 +101,6 @@ label{
 	padding-top: 0px;
 	padding-bottom: 0px;
 
-
 }
 .logoHome {
 	width: 80px;
@@ -137,11 +136,7 @@ label{
  	box-shadow: 10px 10px 5px grey;
  	border-radius: 5px;
 }
-.ultimosPC{
-	background: white;	
- 	box-shadow: 10px 10px 5px grey;
- 	border-radius: 5px;
-}
+
 #tabelasPedidosClientes{
 	margin-top: 30px;	
 	float: right;
@@ -161,5 +156,56 @@ label{
 .userName{
 	font-size: 15px;
 }
+tbody{
+	background: white;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #dddddc;
+}
+.table-bordered>tbody>tr>td, 
+.table-bordered>tbody>tr>th {
+	border-color: #3a3a39;
+}
+
+/*nCategoria*/
 
 
+
+/* XS*/
+@media only screen and (max-width: 576px) {
+
+	.table {
+		width: 300%;
+}
+}
+/* SM*/
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  
+	.table {
+		width: 200%;
+}
+}
+/* MD */
+@media only screen and (min-width: 769px) and (max-width: 992px){
+	.table {
+		width: 140%;
+}
+
+}
+
+/* LG*/
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+   
+	
+	.table {
+		width: 110%;
+}
+   
+}
+/* XL*/
+@media only screen and  (min-width: 1201px){
+    
+
+}

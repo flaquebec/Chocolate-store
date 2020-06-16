@@ -11,7 +11,7 @@ require 'header.php';?>
       </nav>
 
   <!--Container de pesquisa e de novos pedidos -->
-<div class="container mt-5">
+  <div class="container mt-5">
         <nav class="navbar navbar-light justify-content-between">
         <a href="/admin/produto.php" class="btn simpleBtn" role="button" id="btnNovoPedido">Novo Pedido</a>
             <form class="form-inline">
@@ -19,42 +19,69 @@ require 'header.php';?>
             <button class="btn  my-2 my-sm-0 simpleBtn" type="submit">Pesquisar</button>
           </form>
         </nav>
-     </div>
-     <div class="container-fluid mt-5">
+  </div>
 
-        <div class="ultimosPC col-xl-10 col-sm-12 col-md-12 col-lg-10 m-auto">
-         <table class="table">
+    
+  <div class="container-fluid pr-5 pl-5 mt-5 ">      
+       <div class="table-responsive">
+         <table class="table table-bordered table-hover table-striped">
            <thead>
-              <tr>
+              <tr class="bg-dark text-white" >
+                <th scope="col"></th>
                 <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Status</th>
+                <th scope="col">Descrição</th>
                 <th scope="col">Categoria</th>
-                <th scope="col">Data</th>
-                <th scope="col">Valor</th>
+                <th scope="col">Criado em</th>
+                <th scope="col">Alterado em</th>
                
               </tr>
            </thead>
            <tbody>
               <tr>
-                <th scope="row">001</th>
+                 <td><button type="button" class="btn simpleBtn bt-sm">Editar</button> <button type="button" class="btn simpleBtn bt-sm">Excluir</button></td>
+                 <td>001</td>
                  <td>Categoria A</td>
-                 <td>01/01/2020</td>
-                 <td>R$30,00</td>
+                 <td>Ativo</td>
+                 <td>Descrição da Categoria</td>
+                 <td>Categoria 1</td>
+                 <td>01/06/2020</td>
+                 <td>01/06/2020</td>
               </tr>
               
               <tr>
-                <th scope="row">002</th>
+                 <td><button type="button" class="btn simpleBtn bt-sm">Editar</button> <button type="button" class="btn simpleBtn bt-sm">Excluir</button></td>
+                 <td>002</td>
                  <td>Categoria B</td>
-                 <td>01/01/2020</td>
-                 <td>R$53,00</td>
-              </tr>                    
+                 <td>Ativo</td>
+                 <td>Descrição da Categoria</td>
+                 <td>Categoria 1</td>
+                 <td>01/06/2020</td>
+                 <td>01/06/2020</td>
+              </tr>   
+              
+              <tr>
+                 <td><button type="button" class="btn simpleBtn bt-sm">Editar</button> <button type="button" class="btn simpleBtn bt-sm">Excluir</button></td>
+                 <td>00</td>
+                 <td>Categoria B</td>
+                 <td>Ativo</td>
+                 <td>Descrição da Categoria</td>
+                 <td>Categoria 1</td>
+                 <td>01/06/2020</td>
+                 <td>01/06/2020</td>
+              </tr>  
              </tbody>
          </table>      
         </div>
-      </div>
-      <div class= "container d-flex mt-5">
+
+
+</div>
+
+  <div class= "container d-flex mt-5">
         <button type="button" class="btn simpleBtn">Anterior</button>
         <button type="button" class="btn simpleBtn ml-auto">Próximo</button>
-      </div>
+  </div>
 
    
 
