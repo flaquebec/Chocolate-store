@@ -29,7 +29,7 @@
   <body>    
   <div class="container-fluid p-0">  
     <nav class="navbar navbar-expand-md navbar-light bg-light navHomeAdmin">      
-          <a class="navbar-brand" href="/admin/index.php"> 
+          <a class="navbar-brand" href="/admin"> 
             <img src="/admin/imagem/logo.png" class="logoHome float-left d-block" >
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#barraMenu">
@@ -39,7 +39,7 @@
           <div class="collapse navbar-collapse " id="barraMenu">
               <ul class="navbar-nav ml-auto ">
                  <li class="nav-item pr-2 menuList">
-                   <a class="nav-link" href="/admin/adminCategoria.php">Categoria</a>
+                   <a class="nav-link" href="/admin/adminCategoria.php">Categorias</a>
                  </li>
                  <li class="nav-item pr-2 menuList">
                    <a class="nav-link" href="/admin/adminProdutos.php">Produtos</a>
