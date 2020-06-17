@@ -125,10 +125,19 @@ require 'header.php';?>
       </div>
     </div>
 
-    <div class= "container d-flex mt-5">
-      <button type="button" class="btn simpleBtn">Anterior</button>
-      <button type="button" class="btn simpleBtn ml-auto">Próximo</button>
-    </div>
+<!--PAGINATION-->
+<nav class="pageBox mt-4" aria-label="Navegação de página">
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link btn simpleBtn" href="#">Anterior</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
+    <li class="page-item"><a class="page-link" href="#">5</a></li>
+    <li class="page-item"><a class="page-link btn simpleBtn" href="#">Próximo</a></li>
+  </ul>
+</nav>
+
 
     <?php } ?>
 

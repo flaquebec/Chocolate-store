@@ -189,7 +189,16 @@ th a{
 	background-color:#8d8d8d ;
 	border: 1px solid #aaa9a9;
 }
+.page-link{
+	color: rgb(75, 73, 73);
+}
+.page-item:first-child .page-link {
+    color: white;
+}
 
+.page-item:last-child .page-link {
+    color: white;
+}
 /*nCategoria*/
 
 
