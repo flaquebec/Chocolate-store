@@ -20,12 +20,14 @@ require 'header.php';?>
           </form>
         </nav>
      </div>
-     <div class="container-fluid mt-5">
+    
+     <div class="container-fluid pr-5 pl-5 mt-5 ">  
 
-        <div class="ultimosPC col-xl-10 col-sm-12 col-md-12 col-lg-10 m-auto">
-         <table class="table">
+<div class="table-responsive">
+         <table class="table table-bordered table-hover table-striped">
            <thead>
-              <tr>
+           <tr class="nomeDasColunas">
+              <th scope="col">&nbsp;</th>
                 <th scope="col">ID</th>
                 <th scope="col">Estatus</th>
                 <th scope="col">Data</th>
@@ -37,6 +39,10 @@ require 'header.php';?>
            </thead>
            <tbody>
               <tr>
+              <td>
+                <a class="btn btnEE btn-sm"  href=""> Editar</a>
+                <a class="btn btnEE btn-sm"  href="" onclick=""> Excluir</a>
+              </td>
                 <th scope="row">001</th>
                  <td>Fechado</td>
                  <td>01/01/2020</td>
@@ -47,6 +53,10 @@ require 'header.php';?>
               </tr>
               
               <tr>
+              <td>
+                <a class="btn btnEE btn-sm"  href=""> Editar</a>
+                <a class="btn btnEE btn-sm"  href="" onclick=""> Excluir</a>
+              </td>
                 <th scope="row">002</th>
                  <td>Entregue</td>
                  <td>01/01/2020</td>
@@ -57,6 +67,10 @@ require 'header.php';?>
               </tr>
        
               <tr>
+              <td>
+                <a class="btn btnEE btn-sm"  href=""> Editar</a>
+                <a class="btn btnEE btn-sm"  href="" onclick=""> Excluir</a>
+              </td>
                 <th scope="row">001</th>
                  <td>Cancelado</td>
                  <td>01/01/2020</td>
@@ -69,10 +83,20 @@ require 'header.php';?>
          </table>      
         </div>
       </div>
-      <div class= "container d-flex mt-5">
-        <button type="button" class="btn simpleBtn">Anterior</button>
-        <button type="button" class="btn simpleBtn ml-auto">Próximo</button>
-      </div>
+     
+<!--PAGINATION-->
+<nav class="pageBox mt-4" aria-label="Navegação de página">
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link btn simpleBtn" href="#">Anterior</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">4</a></li>
+    <li class="page-item"><a class="page-link" href="#">5</a></li>
+    <li class="page-item"><a class="page-link btn simpleBtn" href="#">Próximo</a></li>
+  </ul>
+</nav>
+
 
    
 

@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css");
 body{
-	background:#f9f2ec;
+	background:#f5ece8;
 
 }
 
@@ -101,7 +101,6 @@ label{
 	padding-top: 0px;
 	padding-bottom: 0px;
 
-
 }
 .logoHome {
 	width: 80px;
@@ -137,11 +136,7 @@ label{
  	box-shadow: 10px 10px 5px grey;
  	border-radius: 5px;
 }
-.ultimosPC{
-	background: white;	
- 	box-shadow: 10px 10px 5px grey;
- 	border-radius: 5px;
-}
+
 #tabelasPedidosClientes{
 	margin-top: 30px;	
 	float: right;
@@ -161,5 +156,86 @@ label{
 .userName{
 	font-size: 15px;
 }
+tbody{
+	background: white;
+}
+
+.nomeDasColunas{
+	background: #3d3d3d;
+	color: white;
+}
+th a{
+	color: white;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #dadada;
+   color: #000000;
+}
+.table-bordered>tbody>tr>td, 
+.table-bordered>tbody>tr>th{
+	border-color: #313131;
+	
+}
+.btnEE{
+	background: #5c5c5c;
+	border: 1px solid #020202;
+	color: white;	
+
+}
+
+.btnEE:hover{
+	background-color:#8d8d8d ;
+	border: 1px solid #aaa9a9;
+}
+.page-link{
+	color: rgb(75, 73, 73);
+}
+.page-item:first-child .page-link {
+    color: white;
+}
+
+.page-item:last-child .page-link {
+    color: white;
+}
+/*nCategoria*/
 
 
+
+/* XS*/
+@media only screen and (max-width: 576px) {
+
+	.table {
+		width: 300%;
+}
+}
+/* SM*/
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  
+	.table {
+		width: 200%;
+}
+}
+/* MD */
+@media only screen and (min-width: 769px) and (max-width: 992px){
+	.table {
+		width: 140%;
+}
+
+}
+
+/* LG*/
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+   
+	
+	.table {
+		width: 110%;
+}
+   
+}
+/* XL*/
+@media only screen and  (min-width: 1201px){
+    
+
+}

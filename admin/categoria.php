@@ -123,6 +123,10 @@ if (!empty($_POST)) {
     $validations['description'] = 'O campo Descrição deve ter no máximo 4000 caracteres.';
   }
 
+if (empty($category_id)) {
+    $category_id = null;
+}
+
   // Verifica se o parametro id esta vazio e se a imagem esta vazia
   //if (empty($_GET['id']) && empty($_FILES['image']['tmp_name'])) {
   //  $validations['image'] = 'O campo Imagem deve ser informado.';

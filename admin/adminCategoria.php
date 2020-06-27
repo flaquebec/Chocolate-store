@@ -42,54 +42,46 @@ $categories = $connection
                   ->orderBy($orderBy)
                   ->paginate();
 
-
-
 require 'header.php';?>
 
-  <!--Admin / Categorias -->
+  
+ <!--Admin/Categorias-->
 
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item itemBC"><a href="/admin">Admin</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Categorias</li>
-    </ol>
-  </nav>
-
-  <?php if (isset($_GET['message'])) { ?>
-    <div class="alert alert-info" role="alert">
-      <?php echo htmlentities($_GET['message']); ?>
-    </div>
-  <?php } ?>
+ <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item itemBC"><a href="/admin/index.php" class="">Admin</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Categorias</li>
+        </ol>
+      </nav>
 
   <!--Container de categorias e de novas categorias -->
   <div class="container mt-5">
+     
     <nav class="navbar navbar-light justify-content-between">
-      <a href="/admin/categoria.php" class="btn simpleBtn" role="button">Nova</a>
+      <a href="/admin/categoria.php" class="btn simpleBtn" role="button" id="btnNovoPedido">Nova</a>
       <form class="form-inline">
-        <input 
-          class="form-control mr-sm-2" 
-          type="search" 
-          placeholder="Search" 
-          aria-label="Search" 
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" 
           name="search"
           value="<?php echo isset($_GET['search']) ? htmlentities($_GET['search']) : '';?>">
         <button class="btn  my-2 my-sm-0 simpleBtn" type="submit">Pesquisar</button>
       </form>
     </nav>
   </div>
-  
 
-  <div class="container-fluid mt-5">
+       
+    
+   
+ <div class="container-fluid pr-5 pl-5 mt-5 ">  
 
     <?php if (empty($categories['data'])) { ?>
       <div class="alert alert-primary" role="alert">
         Nenhuma categoria encontrada.
       </div>
     <?php } else { ?>
-    <div class="ultimosPC col-xl-10 col-sm-12 col-md-12 col-lg-10 m-auto">
-        <table class="table">
-          <thead>
-            <tr>
+     <div class="table-responsive">
+         <table class="table table-bordered table-hover table-striped">
+           <thead>
+            <tr class="nomeDasColunas">
               <th scope="col">&nbsp;</th>
               <?php th_orderBy("ID", 'c1.id') ?>
               <?php th_orderBy("Nome", 'c1.name') ?>
@@ -102,15 +94,17 @@ require 'header.php';?>
           </thead>
           <tbody>
             <?php foreach ($categories['data'] as $category) { ?>
-              <tr>
+              <tr >        
+               
+               
                 <td>
                   <a 
-                    class="btn btn-primary btn-sm" 
+                    class="btn btnEE btn-sm" 
                     href="/admin/categoria.php?id=<?php echo $category['id'];?>">
                     Editar
                   </a>
                   <a 
-                    class="btn btn-danger btn-sm" 
+                    class="btn btnEE btn-sm" 
                     href="/admin/adminCategoria.php?id=<?php echo $category['id'];?>&action=delete"
                     onclick="return confirm('Deseja realmente remover a categoria: <?php echo htmlentities($category['name']);?>?')">
                     Excluir
@@ -123,21 +117,19 @@ require 'header.php';?>
                 <td><?php echo htmlentities($category['category']);?></td>
                 <td><?php echo date_format(date_create($category['created_at']), 'd/m/Y H:i:s');?></td>
                 <td><?php echo $category['updated_at'] ? date_format(date_create($category['updated_at']), 'd/m/Y H:i:s') : '-';?></td>
-              </tr>
-            <?php } ?>
+                <?php } ?>
             </tbody>
         </table>      
       </div>
     </div>
 
-    <div class= "container d-flex mt-5">
-      <button type="button" class="btn simpleBtn">Anterior</button>
-      <button type="button" class="btn simpleBtn ml-auto">Próximo</button>
-    </div>
+    <?php pagination($categories) ?>
 
     <?php } ?>
 
   </div>
+  
+
   
 <?php
 require 'footer.php';?>
