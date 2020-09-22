@@ -1,3 +1,4 @@
+assets/img/*
 docker/mysql/*
 database/migrations/lock
 database/seeders/lock
