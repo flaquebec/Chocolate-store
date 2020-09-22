@@ -1,34 +1,53 @@
 <?php
+require('db.php');
 
-require('database/connection.php');
+$db = new DB();
 
-/*$admins = $connection->query('select * from admins');
+$categories = $db->query("SELECT id, name, description FROM categories WHERE status = 1 ORDER BY name")->get();
 
-foreach ($admins as $admin) {
-    var_dump($admin);
-}*/
-
+include 'header.php';
 ?>
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+<!-- CAROUSEL-->  
+<div class="container-fluid " id="containerCarousel">
+  <div id="boxCarousel p-0" class="slideCarousel carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#boxCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#boxCarousel" data-slide-to="1"></li>
+      <li data-target="#boxCarousel" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="image/carousel/diaDosPais.jpg" alt="Dia dos Namorados">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="image/carousel/coffee.jpg" alt="Dia dos Pais">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="image/carousel/diaNam.jpg" alt="Dia das Maes">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#boxCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#boxCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    
-    <h1>Hello, world!</h1>
+<!-- MAIN CONTAINER-->
+<!--SEPARADOR CAROUSEL E CONTAINER PRINCIPAL-->
+<div class="container-fluid tituloContainer">
+  <h2 class="titulo"> Nossos Produtos</h2>
+</div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/assets/js/jquery-3.4.1.slim.js"></script>
-    <script src="/assets/js/popper.js"></script>
-    <script src="/assets/js/bootstrap.js"></script>
-  </body>
-</html>
+
+<div class="containerPrincipal container-fluid d-flex flex-wrap">
+</div>
+
+<?php 
+include 'footer.php';
+?>
